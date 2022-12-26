@@ -11,6 +11,7 @@ public class ArrayListDemo {
 		list.add("Akshay");
 		list.add("Swati");
 		list.add("Agastya");
+		list.add("Aga");
 		
 		list.stream().forEach(x->System.out.println(x));
 
