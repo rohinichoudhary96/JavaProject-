@@ -12,6 +12,9 @@ public class ArrayListDemo {
 		list.add("Swati");
 		list.add("Agastya");
 		list.add("Aga");
+		for(String str:list){
+		sysout(str);
+		}
 		
 		list.stream().forEach(x->System.out.println(x));
 
